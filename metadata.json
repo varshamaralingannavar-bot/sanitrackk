@@ -1,0 +1,6 @@
+{
+  "name": "SANITRACK",
+  "description": "SANITRACK — Smart Municipal Waste Collection & Sanitation Monitoring System for Belagavi City. Cleaner Cities. Smarter Sanitation. Better Tomorrow.",
+  "requestFramePermissions": ["geolocation", "camera", "microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
