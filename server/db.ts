@@ -2,7 +2,7 @@ import Database from 'better-sqlite3';
 import crypto from 'node:crypto';
 import path from 'node:path';
 
-const dbPath = path.resolve(process.cwd(), 'sanitrack.db');
+const dbPath = process.env.DB_PATH || path.resolve(process.cwd(), 'sanitrack.db');
 export const db = new Database(dbPath);
 
 db.pragma('journal_mode = WAL');
